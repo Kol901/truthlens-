@@ -5,7 +5,7 @@ async function analyze() {
   resultDiv.classList.remove("hidden");
   resultDiv.innerHTML = "Analyzing...";
 
-  const res = await fetch("https://truthlens1.lordsmj69.workers.dev/analyze", {
+  const res = await fetch("https://truthlens2.lordsmj69.workers.dev/analyze", {
     method: "POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({ text })
